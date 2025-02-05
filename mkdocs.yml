@@ -1,3 +1,24 @@
 site_name: My Docs
 theme:
   name: material
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.expand
+nav:
+  - Home: index.md
+  - About: about.md
+  - Docs:
+      - Getting Started: getting_started.md
+      - Configuration: configuration.md
+  - Contact: contact.md
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - javascripts/config.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
