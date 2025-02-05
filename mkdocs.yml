@@ -20,7 +20,6 @@ theme:
         name: Light Mode
 
   features:
-    - navigation.instant
     - navigation.tabs # 使用tabs分类
     - navigation.tabs.sticky
     - navigation.expand # 展开导航
